@@ -1,8 +1,5 @@
 # Crop Yield Prediction
-Predicting crop yield from climate and agricultural inputs with Machine Learning 
-
-## About
-Most small-scale farmers are yet to embrace modern technology that could help them predict their yield before harvesting. This study employs historical climate and agricultural data to predict crop yield in hg/ha using a machine learning model and determine the highest predictive variables for yield in different world regions.
+As we know, most small-scale farmers are yet to embrace modern technology that could help them predict their yield before harvesting. In this project, I employ historical climate and agricultural data to predict crop yield in hg/ha using a machine learning model and determine the highest predictive variables for yield in different world regions.
 A random forest regressor trained on the dataset achieved a performance score of R² = 0.986 in predicting the yield.
 
 ## Dataset
