@@ -15,6 +15,7 @@ The data spans 28,242 records from 1990 to 2013 for 10 different kinds of crops 
 - Finally, while rainfall and pesticide application have some impact (35%), they are not nearly as important as crop type or temperature.
 
 ## Project structure
+```
 crop-yield-prediction/
 │
 ├── data/
@@ -22,21 +23,16 @@ crop-yield-prediction/
 │
 ├── notebooks/
 │   └── 3MTT_Capstone_Project.ipynb
-│
-├── report/
-│   └── Crop_Yield_Capstone_Report.md
-│
-├── images/
-│   └── (chart images used in the report)
-│
-├── requirements.txt
-└── README.md
+...
+```
 
 ## How to run
-git clone https://github.com/Gideon-Silas/crop-yield-prediction.git
-cd Crop-Yield-Prediction
+```bash
+git clone https://github.com/Gideon-Silas/Crop_Yield_Prediction.git
+cd Crop_Yield_Prediction
 pip install -r requirements.txt
 jupyter notebook notebooks/3MTT_Capstone_Project.ipynb
+```
 
 ## Tech stack
 - Python
