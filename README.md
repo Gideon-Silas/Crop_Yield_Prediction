@@ -6,10 +6,12 @@ A random forest regressor trained on the dataset achieved a performance score of
 Crop Yield Prediction Dataset from Kaggle.
 The data spans 28,242 records from 1990 to 2013 for 10 different kinds of crops and 101 countries.
 
-## Key Findings
-- Crop type is the most important determinant of yield in the dataset (61%), with tubers and roots producing 5-10x more produce per hectare than cereals, legumes, and other crops.
-- The impact of climate on yield appears to be masked when considering all crops together, but becomes apparent when disaggregated. For instance, temperature demonstrates a strong negative association with most crop groups (Maize: -0.55, Wheat: -0.37).
-- Finally, while rainfall and pesticide application have some impact (35%), they are not nearly as important as crop type or temperature.
+## Findings
+- First, it was found that the data provided for the study had no missing values and duplicates. This was the first advantage of the data set
+- Yield distribution was found to be skewed to the right significantly, with several types of crops associated with abnormally high production
+- Climate change affects production in a way that is almost invisible if all the crops are considered together. However, for each individual crop, the relationship can be observed visually, and it is linear.
+- Using Random Forest Regression, it was possible to predict the yield with a high degree of accuracy (R squared = 0.986) using only six inputs.
+- Finally, It was found that the crop type was the most important factor in the prediction model, followed by climate change and the amount of pesticides used
 
 ## Project structure
 ```
