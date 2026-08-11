@@ -16,23 +16,22 @@ The data spans 28,242 records from 1990 to 2013 for 10 different kinds of crops 
 
 ## Project structure
 ```
-crop-yield-prediction/
-│
-├── data/
-│   └── yield_df.csv
-│
+Crop_Yield_Prediction/
 ├── notebooks/
 │   └── 3MTT_Capstone_Project.ipynb
-...
+├── data/
+│   └──yield_df.csv)
+├── README.md
+└── requirements.txt
 ```
 
 ## How to run
-```bash
-git clone https://github.com/Gideon-Silas/Crop_Yield_Prediction.git
-cd Crop_Yield_Prediction
-pip install -r requirements.txt
-jupyter notebook notebooks/3MTT_Capstone_Project.ipynb
-```
+1. Clone the repository
+2. Navigate into the project folder
+3. Install the required dependencies
+4. Download the dataset in the "data" folder.
+5. Open the notebook
+6. Run the cells in order to reproduce the analysis and model training.
 
 ## Tech stack
 - Python
