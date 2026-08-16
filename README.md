@@ -16,7 +16,7 @@ The data spans 28,242 records from 1990 to 2013 for 10 different kinds of crops 
 ## Project structure
 ```
 Crop_Yield_Prediction/
-├── app.py                      ← Streamlit entry point — is this missing, or just off-screen?
+├── my_app.py
 ├── requirements.txt
 ├── README.md
 ├── data/
