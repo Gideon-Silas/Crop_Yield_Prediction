@@ -16,12 +16,17 @@ The data spans 28,242 records from 1990 to 2013 for 10 different kinds of crops 
 ## Project structure
 ```
 Crop_Yield_Prediction/
+├── app.py                      ← Streamlit entry point — is this missing, or just off-screen?
+├── requirements.txt
+├── README.md
+├── data/
+│   └── yield_df.csv
 ├── notebooks/
 │   └── 3MTT_Capstone_Project.ipynb
-├── data/
-│   └──yield_df.csv)
-├── README.md
-└── requirements.txt
+└── models/
+    ├── random_forest_model.pkl
+    ├── item_encoder.pkl
+    └── area_encoder.pkl
 ```
 
 ## How to run
