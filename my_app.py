@@ -348,9 +348,9 @@ st.markdown(CSS, unsafe_allow_html=True)
 # Model + encoder loading
 # ----------------------------------------------------------------------------
 BASE_DIR = os.path.dirname(__file__)
-MODEL_PATH = os.path.join(BASE_DIR, "random_forest_model.pkl")
-ITEM_ENCODER_PATH = os.path.join(BASE_DIR, "item_encoder.pkl")   # encodes crop ("Item")
-AREA_ENCODER_PATH = os.path.join(BASE_DIR, "area_encoder.pkl")   # encodes country ("Area")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "random_forest_model.pkl")
+ITEM_ENCODER_PATH = os.path.join(BASE_DIR, "models", "item_encoder.pkl")   # encodes crop ("Item")
+AREA_ENCODER_PATH = os.path.join(BASE_DIR, "models", "area_encoder.pkl")   # encodes country ("Area")
 
 @st.cache_resource
 def load_pickle(path):
