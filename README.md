@@ -44,7 +44,7 @@ Crop_Yield_Prediction/
 - scikit-learn (LabelEncoder, StandardScaler, RandomForestRegressor)
 
 ## Full write-up
-The complete analysis, with charts and explanations, is in report/Crop_Yield_Capstone_Report.md.
+The complete analysis, with charts and explanations, is available on [Medium](https://medium.com/@Just_Gideons/3mtt-capstone-project-predicting-crop-yield-from-weather-soil-features-using-machine-learning-0aea13c1c32d).
 
 ## Author
 Connect with me on [LinkedIn](https://linkedin.com/in/gideonsilas), [Twitter](https://twitter.com/Mr_Goodboi1), and [Medium](https://medium.com/@Just_Gideons).
