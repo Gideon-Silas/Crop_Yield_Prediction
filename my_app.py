@@ -487,7 +487,7 @@ with tab_video:
             "No video found yet. Drop a file named `demo_video.mp4` in this app's folder, "
             "or paste a YouTube/hosted link below."
         )
-        video_url = st.text_input("Video URL (optional)", placeholder="https://youtu.be/FqwTj-ixbjQ?si=a3GbJfO-lyUVswkf")
+        video_url = st.text_input("Video URL (optional)", value="https://youtu.be/FqwTj-ixbjQ", placeholder="Paste a YouTube link")
         if video_url:
             st.video(video_url)
 
