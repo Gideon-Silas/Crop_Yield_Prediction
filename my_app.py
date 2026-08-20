@@ -374,7 +374,7 @@ for label, path, setter in [
             else:
                 area_encoder = obj
         except Exception as e:
-            load_errors.append(f"{label}: {e}")
+    load_errors.append(f"{label}: {type(e).__name__}: {e}")
     else:
         load_errors.append(f"{label}: file not found at {path}")
 
