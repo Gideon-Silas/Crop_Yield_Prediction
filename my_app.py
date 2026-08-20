@@ -479,17 +479,7 @@ with tab_video:
         unsafe_allow_html=True,
     )
 
-    VIDEO_PATH = os.path.join(BASE_DIR, "demo_video.mp4")
-    if os.path.exists(VIDEO_PATH):
-        st.video(VIDEO_PATH)
-    else:
-        st.info(
-            "No video found yet. Drop a file named `demo_video.mp4` in this app's folder, "
-            "or paste a YouTube/hosted link below."
-        )
-        video_url = st.text_input("Video URL (optional)", value="https://youtu.be/FqwTj-ixbjQ", placeholder="Paste a YouTube link")
-        if video_url:
-            st.video(video_url)
+    st.video("https://youtu.be/FqwTj-ixbjQ")
 
 # ----------------------------------------------------------------------------
 # Tab 3 — Predictor
